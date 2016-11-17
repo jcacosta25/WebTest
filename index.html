@@ -1,220 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="Checkout" class="js"><head>
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script type="text/javascript" src="https://bam.nr-data.net/1/8aa6e34bd4?a=1587860&amp;v=998.365d633&amp;to=dlpfTEsLD1pQExcVFlpHVBdOAQ9VWgxd&amp;rst=3680&amp;ref=https://lockitron.com/&amp;ap=15&amp;be=494&amp;fe=2895&amp;dc=1864&amp;perf=%7B%22timing%22:%7B%22of%22:1479349051470,%22n%22:0,%22f%22:338,%22dn%22:338,%22dne%22:338,%22c%22:338,%22ce%22:338,%22rq%22:343,%22rp%22:414,%22rpe%22:417,%22dl%22:418,%22di%22:2360,%22ds%22:2360,%22de%22:2504,%22dc%22:3391,%22l%22:3391,%22le%22:3419%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-998.min.js"></script><script type="text/javascript" async="" src="https://dpao6ma8eqkx0.cloudfront.net/js/o.min.js?v=0.1.30"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script async="" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=088620b277/cloudflare.min.js"></script><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"e938db23f8054bbbd2aaccfa302cf4d0",petok:"a3686030be39921c36659bcd7be079fcab39f20a-1479349050-1800",zone:"lockitron.com",rocket:"0",apps:{"ga_key":{"ua":"UA-17601805-1","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=088620b277/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8aa6e34bd4","applicationID":"1587860","transactionName":"dlpfTEsLD1pQExcVFlpHVBdOAQ9VWgxd","queueTime":0,"applicationTime":15,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+      <meta name="description" content="Replace your keys with your phone starting at $99. Unlock your door from anywhere in the world and share access with family and friends instantly.">
+      <meta content="authenticity_token" name="csrf-param">
+<meta content="WcH8Gjn44qPv6PIjF7teq5cq18DkLSa1Ni7u9eXh0NQ=" name="csrf-token">
+      <title>SmartLock</title>
+      <script type="text/javascript">
+        window.StripeKey = "pk_ZhP4YOGc1eRN896v0Th4Uotqc3yu1";
+      </script>
+      
+      <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6297512/703724/css/fonts.css">
+      <link href="/assets/store/style-4ddcde8a841ac226458c0e4e0f96ab9e.css" media="screen" rel="stylesheet" type="text/css">
+      <script src="/assets/store-56c6c225bfed928f7e3f279a32218ff6.js" type="text/javascript"></script><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
+      <script async="" type="text/javascript" src="https://www.trycelery.com/js/celery.js"></script>
+      <script src="/assets/store/celery-cart.min-518c45ede0fea036e2fa71cb4c9c43e8.js" type="text/javascript"></script>
+      <link href="/assets/store/celery-d315d7ef0d7ba65f16fe2130888b1afc.css" media="screen" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17601805-1']);
+_gaq.push(['_trackPageview']);
 
-<head>
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+<style type="text/css">.celery-open{overflow:hidden!important}.celery-animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.celery-backdrop{z-index:2147483645;position:fixed;top:0;right:0;bottom:0;left:0;background-color:#000;-webkit-animation-duration:.3s;animation-duration:.3s;opacity:.8;-moz-opacity:.5;-ms-filter:"alpha(Opacity=75)"}.celery-backdrop-fade-in{-webkit-animation-name:celeryBackdropFadeIn;animation-name:celeryBackdropFadeIn}.celery-backdrop-fade-out{-webkit-animation-name:celeryBackdropFadeOut;animation-name:celeryBackdropFadeOut}@-webkit-keyframes celeryBackdropFadeIn{0%{opacity:0}100%{opacity:.8}}@keyframes celeryBackdropFadeIn{0%{opacity:0}100%{opacity:.8}}@-webkit-keyframes celeryBackdropFadeOut{0%{opacity:.8}100%{opacity:0}}@keyframes celeryBackdropFadeOut{0%{opacity:.8}100%{opacity:0}}.celery-spinner{z-index:2147483646;width:78px;height:26px;position:fixed;top:0;left:0;bottom:0;right:0;margin:auto;text-align:center}.celery-spinner>div{margin:4px;width:18px;height:18px;background-color:#fff;border-radius:100%;display:inline-block;-webkit-animation:celeryBounceDelay 1.4s infinite ease-in-out;animation:celeryBounceDelay 1.4s infinite ease-in-out;-webkit-animation-fill-mode:both;animation-fill-mode:both}.celery-spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}.celery-spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}@-webkit-keyframes celeryBounceDelay{0%,100%,80%{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes celeryBounceDelay{0%,100%,80%{transform:scale(0);-webkit-transform:scale(0)}40%{transform:scale(1);-webkit-transform:scale(1)}}</style></head>
 
-    <title>M.A.S</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+  <body>
+    <header id="header" class="">
+  <div class="container">
+    <div class="logo">
+      <h1><a href="">SmartLock</a></h1>
+    </div>
+    <a href="#" class="nav-toggle" aria-hidden="true">Menu</a><nav class="nav-collapse nav-collapse-0 closed" aria-hidden="false" style="transition: max-height 400ms; position: relative;">
+      <ul class="nav">
+        <li class="active"><a href="/">Conoce SmartLock</a></li>
+      </ul>
     </nav>
-
-
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>M.A.S</h1>
-                        <h3>Mechatronics Associate and Software</h3>
-                        <hr class="intro-divider">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+  </div>
+</header>
+    <section class="video_subheader">
+  <div class="container wow fadeIn animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+    <h2><span class="semibold">SmartLock</span>La seguridad al alcance de tu mano</h2>
+    <div class="subheader-right">
+      <img alt="Learn more about the smart lock at starts at only $99" src="/assets/store/dog.jpg">
+    
+      <br>
+      <br>
     </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a  name="services"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Smart Lock</h2>
-                    <p class="lead">Smart lock permite abrir tu puerta de la casa por medio de la una applicacion de celular con un codigo dado</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+  </div>
+</section>
+<section class="video">
+  <div id="hero" class="wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+    <div class="video-container wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+      <video autoplay="" loop="" controls muted>
+        <source src="/assets/store/smartlock.mp4" type="video/mp4">
+        <img alt="Video_background" src="/assets/store/video_background-f587e0cf67f41531b28b41a2ca626ae8.jpg">
+      </video>
     </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Vision</h2>
-                    <p class="lead">Nuestro objetivo es construir en nuestra trayectoria de crecimiento y liderazgo de la industria de Sistemas de Seguridad, mediante la entrega de un crecimiento sostenible a través de la excelencia. </p>
-
-                     <h2 class="section-heading">Misión</h2>
-                    <p class="lead">MAS se ha comprometido a la fabricación de sistemas de seguridad, de alta tecnología para la industria de sistemas de seguridad.
-Nuestro objetivo es ser una empresa líder en tecnología, costo, calidad y servicio.
-Buscamos un desarrollo integral de nuestro personal y nuestros proveedores y reconocemos nuestra responsabilidad con la sociedad.</p>
-<a href="https://github.com/jcacosta25/WebTest/raw/master/mecatronica%20imtc/ARCHIVOS/Vision%2C%20Mision%2C%20Valores%20(1).docx">
-Descargar Mision y Vision</a>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.jpg" alt="">
-                </div>
-            </div>
-
+  </div>
+</section>
+<div class="homepage-content">
+<section id="main-points">
+  <div class="container">
+    <ul class="services">
+      <li>
+        <div>
+          <img alt="Control your lock from your smartphone" src="/assets/store/phone-17eb97dd1efa6dbe26a3ff6a45cec949.svg">
+          <h2>Conoce tus nuevas llaves</h2>
+          <p>Smartlock utiliza Bluetooth de bajo consumo de energia lo cual significa que seguira funcionando en cualquier circunstancia.</p>
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Manual de Usuario</h2>
-                    <p class="lead">Al dar click en la imagen podras descargar el manual</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                   <a href="https://github.com/jcacosta25/WebTest/raw/master/mecatronica%20imtc/ARCHIVOS/Manual%20de%20uso%20-%20ProyIMTC.pdf%20(2).pdf"> <img class="img-responsive" src="img/phones.jpg" alt=""></a> 
-                </div>
-            </div>
-
+      </li>
+      <li>
+        <div>
+          <img alt="Share access to your lock with anyone" src="/assets/store/people-40a82e43400b8bcd5a05b1add81a217b.svg">
+          <h2>Facil Acceso</h2>
+          <p>Con nuestra aplicacion en android podras abrir la puerta de la manera mas facil y comoda</p>
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Es por eso que se cuenta actualmente con certificación en ISO 9000</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                </div>
-            </div>
-
+      </li>
+      <li>
+        <div>
+          <img alt="Know when your lock is opened" src="/assets/store/peace-7b4a35def54e42216444a2f0ffd21162.svg">
+          <h2>Tranquilidad</h2>
+          <p>La seguridad de smartlock es unica</p>
         </div>
-        <!-- /.container -->
-
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="intro">
+  <div class="container">
+    <div class="left">
+      <h2>Tu celular es tu acceso</h2>
+      <p>Con SmartLock tu puerta se abre cuando llegues a tu casa con ayuda de tu dispositivo movil.</p>
     </div>
-    <!-- /.banner -->
+  </div>
+</section>
+<section class="key">
+  <div class="container">
+  <i class="fa fa-key"></i>
+    <div class="right">
+      <h2>No sabes como abrir la puerta</h2>
+      <p>Con el manual podras apoyarte para poder entender como funciona nuestro sistema.</p>
+      <a href="https://github.com/jcacosta25/WebTest/raw/master/mecatronica%20imtc/ARCHIVOS/Manual%20de%20uso%20-%20ProyIMTC.pdf%20(2).pdf" class="main-action">Descargar</a>
+  </div>
+</div></section>
+<section id="testimonials">
+    <div class="container slideshow">
+      <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 268px;"><ul class="bxslider" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(-1920px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 960px;" class="bx-clone">
+          <div class="quote-container">
+            <div class="quote">
+              <span>“</span>
+              Apertura super segura desde su smartphone y tablet
+              <span>”</span>
+            </div>
+          </div>
+        </li>
+        <li style="float: left; list-style: none; position: relative; width: 960px;">
+          <div class="quote-container">
+            <div class="quote">
+              <span>“</span>
+              Instalación verdaderamente fácil
+Extraiga su cilindro actual, inserte la nueva cerradura electrónica SmartLock y habrá convertido su puerta en inteligente:
+se abrirá sin llaves, se cerrará sola cuando salga de casa, obedecerá a su smartphone y reconocerá su huella.
+              <span>”</span>
+            </div>
+            <div class="info">
+              <span>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li style="float: left; list-style: none; position: relative; width: 960px;">
+          <div class="quote-container">
+            <div class="quote">
+              <span>“</span>
+              It doesn’t take much to demo the Lockitron. It’s a little wireless device that slips onto a deadbolt and can be controlled by a smartphone. Put it on your house. Put it on a rental property. Put it on your cat.
+              <span>”</span>
+            </div>
+            <div class="info">
 
-    <!-- Footer -->
+            </div>
+          </div>
+        </li>
+        <li style="float: left; list-style: none; position: relative; width: 960px;">
+          
+        </li>        
+      </ul></div><div class="bx-controls bx-has-pager"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link active">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div></div></div>
+  </div>
+</section>
+<section id="subpoints">
+  <div class="container">
+    <ul>
+      <li id="wifi">
+        <div>
+          <h3>Facil Control</h3>
+          <p>Podremos controlar el acceso con el codigo</p>
+        </div>
+      </li>
+      <li id="power">
+        <div>
+          <h3>Inteligente</h3>
+          <p>No es necesario de otro dispositivo para abrir la puerta.</p>
+        </div>
+      </li>
+      <li id="device">
+        <div>
+          <h3>Android</h3>
+          <p>Smartlock es compatible con Android
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="faqs">
+  <div class="container">
+    <h2>Mision y Vision</h2>
+    <ul class="faqs_container">
+        <li>
+            <h3><a href="#">Misión</a></h3>
+             <p style="display: none;">MAS se ha comprometido a la fabricación de sistemas de seguridad, de alta tecnología para la industria de sistemas de seguridad. Nuestro objetivo es ser una empresa líder en tecnología, costo, calidad y servicio. Buscamos un desarrollo integral de nuestro personal y nuestros proveedores y reconocemos nuestra responsabilidad con la sociedad.</p>
+        </li>
+    </ul>
+    <ul class="faqs_container">
+        <li>
+            <h3 id="key-match"><a>Vision</a></h3>
+             <p style="display: none;">Nuestro objetivo es construir en nuestra trayectoria de crecimiento y liderazgo de la industria de Sistemas de Seguridad, mediante la entrega de un crecimiento sostenible a través de la excelencia.</p>
+        </li>
+    </ul>
+  </div>
+</section>
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; MAS 2014. All Rights Reserved</p>
+ <div class="container">
+   <h1>SmartLock</h1>
+   <div class="right">
+  <!--End mc_embed_signup-->
+   </div>
+
+ </div>
+  </div>
+ </footer></div>
+
+
+<link href="/assets/popup-54b4111fffc4e82941977f79e8006b69.css" media="screen" rel="stylesheet" type="text/css">
+<!-- We hide the overlay by default. When you call AccountForm.show() it hides it in JS, removes the hidden class, and then fades it in -->
+<div id="popup_container" class="hidden">
+    <div id="account_popup" class="overlay">
+        <div id="login_modal" class="cover hidden">
+            <div class="popup">
+                <div class="heading">
+                    <span>Login</span>
+                    <a class="close" onclick="AccountForm.hide()"><i class="fa fa-times"></i></a>
                 </div>
+                <div class="popup_body">
+                        <p class="flash hidden"></p>
+                    <form accept-charset="UTF-8" action="/account/login" id="login_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="WcH8Gjn44qPv6PIjF7teq5cq18DkLSa1Ni7u9eXh0NQ="></div>
+                        <input type="email" placeholder="Email" required="" name="email">
+                        <input type="password" placeholder="Password" required="" name="password">
+                        <fieldset>
+                            <!-- Generally, inline JS is bad. I'd just use Angular but I don't want to include all that JS on every single page. So, we use a little inline JS as a workaround. -->
+                            <a id="cant_login" onclick="AccountForm.show(&quot;forgot&quot;)">Can't login?</a>
+                            <input type="submit" class="button main-action" name="submit" value="Login">
+                        </fieldset>
+</form>             </div>
             </div>
         </div>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <div id="forgot_modal" class="cover hidden">
+            <div class="popup">
+                <div class="heading">
+                    <span>Can't login</span>
+                    <a class="close" onclick="AccountForm.hide()"><i class="fa fa-times"></i></a>
+                </div>
+                <div class="popup_body">
+                    <p class="flash hidden"></p>
+                    <p>In order to reset your password, please enter the email or phone number you used to register your Lockitron account.</p>
+                    <form accept-charset="UTF-8" action="/account/forgot" id="forgot_password_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="WcH8Gjn44qPv6PIjF7teq5cq18DkLSa1Ni7u9eXh0NQ="></div>
+                        <input type="text" id="forgot_password_identifier" placeholder="Email or Phone" name="identifier">
+                        <input type="submit" class="button main-action" name="submit" value="Reset Password">
+</form>             </div>
+            </div>
+        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    </div>
+</div>
+<script src="/assets/popup-08ab60ff7fe26e6b7dc2f06fad607c61.js" type="text/javascript"></script>
+<script type="text/javascript">/* CloudFlare analytics upgrade */
+</script>
 
-</body>
-
-</html>
+  <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+</body></html>
